@@ -4,7 +4,7 @@ if ($_SESSION['admin_authentication'] == false) {
     header('Location: index.php');
     exit;
 } elseif (isset($_POST['submit'])) {
-
+    // change it here too :) ... 
     $servername = "localhost";
     $db_username = "root";
     $db_password = "root";
