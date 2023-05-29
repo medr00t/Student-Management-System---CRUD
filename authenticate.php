@@ -2,12 +2,16 @@
 // starting the session
 session_start();
 
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// U SHOULD HAVE TO ENTER YOUR DB INFORMATION INCLUDING THE TABLE NAME ! //
+// and create a  table called admin in ur DB and add the useranme and the password :) 
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 // Connect to the DB
-$servername = "localhost";
-$db_username = "root";
-$db_password = "root";
-$db_name = "test";
+$servername = "****";
+$db_username = "***";
+$db_password = "****";
+$db_name = "****";
 
 $name = $_POST['Username'];
 $password = $_POST['Password'];
